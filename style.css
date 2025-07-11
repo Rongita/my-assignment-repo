@@ -59,4 +59,50 @@ nav ul li{
     border: none;
     margin: 10px;
 }
+    /*section hero*/
+.action-ctaineonr{
+    display: flex;
+    width: 1140px;
+    height: 628px;
+    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+    margin: auto;
+}
 
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-sub-title{
+    font-size: 20px;
+    line-height: 25px;
+    color: #252432;
+}
+
+.action-content{
+    width: 315px;
+    height: 200px;
+    align-items: top left;
+    gap: 23px;
+}
+
+.action-image img{
+     width: 400px;
+     height: 325px;
+     border-radius: 48px;
+     align-items: right;
+     margin-top: 150px;
+
+}
+
+.action-btn{
+    margin-left: 0px;
+}
+.action-btn a{
+    text-decoration: none;
+    padding: 36px 12px;
+    color: #FFFFFF;
+}
