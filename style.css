@@ -1,0 +1,62 @@
+.copen-sans-normal{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*My Header and Nevber styles*/
+.background-bg{
+    background-image: url("rgba(0,0,0,0.5)"),url("/Assets/Hero-bg.png");
+    height: 500px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px 200px;
+}
+
+.banner-content{
+     width: 584px;
+     padding: 40px;
+     margin-left: 55px;
+     text-align: center;
+     margin: 0 auto;
+}
+
+.nav-style{
+    font-weight: 800;
+    font-size: 45px;
+    color: #4E47FF;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;  
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+
