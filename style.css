@@ -203,12 +203,11 @@ nav ul li{
 
 /*focus section-desgin*/
 .focus-container{
-    text-align: center;
-    gap: 20px;
-    background-color: #faf7f5f1;
-    border-radius: 20px;
-    
-    
+  display:flex;
+  flex-direction:column;    
+  align-items:center;      
+  text-align:center;
+  margin-bottom:120px;      
 }
 
 .focus-section{
@@ -225,7 +224,77 @@ nav ul li{
     color: #000000;
 }
 
-.myimage img{
-    border-radius: 48px;
+.focus-image img{
+  width:100%;
+  height:auto;
+  display:block;           
 }
 
+
+/*contect section*/
+.contact-section{
+  background:#f5f7fc;
+  padding:80px 0;
+  width: 1440px;
+  height: 443px;
+  margin: 600px auto;
+  
+}
+
+.contact-wrapper{
+  max-width:1100px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  gap:120px;
+  padding:0 20px;
+}
+
+.contact-title{
+  font-size: 67px;
+  font-weight: bold;
+  color:#0a0a0a;
+}
+
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  max-width:400px;
+}
+
+.contact-form label{
+  display:flex;
+  flex-direction:column;
+  font-size:14px;
+  font-weight:600;
+  color:#1d2433;
+  margin-bottom:24px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  margin-top:8px;
+  padding:14px 18px;
+  font-size:15px;
+  border:1px solid #e6e8ef;
+  border-radius:6px;
+  background:#ffffff;
+  resize:vertical;
+}
+
+.contact-btn{
+  padding:14px 20px;
+  font-size:14px;
+  font-weight:600;
+  color:#ffffff;
+  background:#4f5dff;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+span{
+    font-size: 18px;
+    color: #000000;
+}
