@@ -180,7 +180,7 @@ nav ul li{
   color: #1E1E1E;
 }
 
-.review-sub-title, .user-date{
+.review-sub-title, .user-date, .focus-sub-title{
     color: #CCCCCC;
 }
 
@@ -199,5 +199,33 @@ nav ul li{
 .user-info{
     display: flex;
     flex-direction: column;
+}
+
+/*focus section-desgin*/
+.focus-container{
+    text-align: center;
+    gap: 20px;
+    background-color: #faf7f5f1;
+    border-radius: 20px;
+    
+    
+}
+
+.focus-section{
+    background: #FFFFFF;
+    width: 1250px;
+    height: 180px;
+    margin: 80px auto;
+    
+}
+
+.focus-title{
+    font-size:45px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.myimage img{
+    border-radius: 48px;
 }
 
