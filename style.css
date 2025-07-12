@@ -236,7 +236,7 @@ nav ul li{
   background:#f5f7fc;
   padding:80px 0;
   width: 1440px;
-  height: 443px;
+   
   margin: 600px auto;
   
 }
@@ -297,4 +297,57 @@ nav ul li{
 span{
     font-size: 18px;
     color: #000000;
+}
+
+   /*Footer*/
+.center{
+    width: 1240px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+     
+
+}
+
+.footer-container{
+    width: 531px;
+    height: 221px;
+    margin-left: 300px;
+     
+}
+
+.footer-logo{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+
+.footer-discription{
+    text-align: center;
+}
+
+footer{
+  margin-top:-480px;
+  position:relative;
+}
+
+footer nav{
+     margin-left: 590px;
+}
+
+footer nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #868383;
+}
+
+footer nav li a:hover{
+     color: #190dcb;
+     
+}
+
+.btn-primary:hover{
+    background-color: #0617cd;
+    color: white;
+    cursor: pointer;
 }
