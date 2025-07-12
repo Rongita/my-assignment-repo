@@ -147,4 +147,57 @@ nav ul li{
     color: #100f0f2f;
 }
 
-/*user say container*/
+/* feedback section*/
+
+.feedback-section{
+    width: 1140px;
+    height: 342px;
+    margin: 0 auto;
+}
+
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.feedback-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+ 
+.feedback-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.review-title{
+  color: #1E1E1E;
+}
+
+.review-sub-title, .user-date{
+    color: #CCCCCC;
+}
+
+.review-user {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.review-user img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
+
